@@ -9,4 +9,4 @@ app.get('/',(req,res)=>{
       .then(({ data }) => {console.log(data);res.send(data)})
       .catch(err => console.error(err));
 })
-app.listen(3000,()=>{console.log("kiuy")})
+app.listen(4200,()=>{console.log("kiuy")})
